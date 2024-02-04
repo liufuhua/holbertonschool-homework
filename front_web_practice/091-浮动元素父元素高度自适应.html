@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            float: left;
+        }
+        .right{
+            width: 100px;
+            height: 100px;
+            background: red;
+            float: left;
+        }
+        .content{
+            width: 200px;
+            height: 200px; 
+            background: green;
+        }
+
+        /* 
+        3 溢出隐藏，引发了一个封闭空间，封闭空间中能计算告诉 
+        */
+        .box{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left"></div>
+        <div class="right"></div>
+        <!-- <div style="clear: both;"></div> 清除浮动 增加空标签不利于代码可读性 --> 
+    </div>
+    <div class="content"></div>
+</body>
+</html>

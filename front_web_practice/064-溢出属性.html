@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background: yellow;
+            /* visible 显示溢出
+            hidden 溢出隐藏 文本裁切
+            scroll 滑动
+            auto
+            inherit 集成父元素效果
+            */
+            overflow: scroll;
+
+        }
+        .box1{
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ducimus cum accusamus possimus ullam magnam architecto quia, dolor, quis nihil dignissimos pariatur sint fugiat sunt placeat minus. Facere, laboriosam ducimus?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ducimus cum accusamus possimus ullam magnam architecto quia, dolor, quis nihil dignissimos pariatur sint fugiat sunt placeat minus. Facere, laboriosam ducimus?
+    </div>
+
+    <div class="box1">
+        <img src="img/3.jpg" alt="">
+    </div>
+</body>
+</html>

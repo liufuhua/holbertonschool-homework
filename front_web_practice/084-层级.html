@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            /* 层级 层级数字越大月考上*/
+            z-index: 1;
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>

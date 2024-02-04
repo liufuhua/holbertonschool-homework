@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+
+        header,footer{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: orange;
+        } 
+
+        section{
+            height: calc(100% - 100px);
+        }
+
+        nav,aside{
+            width: 100px;
+            height: 100%;
+
+            background: #ccc;
+            float: left;
+        }
+
+        main{
+            float: left;
+            width: calc(100% - 200px);
+            background: white;
+            height: 100%;
+        }
+
+        .article1{
+            height: 60%;
+        }
+
+        .article2{
+            height: 40%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>header</header>
+    <section>
+        
+        <nav></nav>
+        <main>
+            <article class="article1">
+                <header>article</header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam harum adipisci culpa necessitatibus itaque qui nisi rem, reiciendis enim quis at error quas eligendi! Fugiat nostrum neque harum perspiciatis assumenda!</p>
+                <footer>article</footer>
+                
+            </article>
+
+            <article class="article2">
+                <header>article</header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam harum adipisci culpa necessitatibus itaque qui nisi rem, reiciendis enim quis at error quas eligendi! Fugiat nostrum neque harum perspiciatis assumenda!</p>
+                <footer>article</footer>
+                
+            </article>
+        </main>
+        <aside></aside>
+    </section>
+    <footer>footer</footer>
+</body>
+</html>
